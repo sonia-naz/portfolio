@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+            *{
+                font-family: sans-serif;
+            }
+
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url(./image\ \(2\).jpg);
+            background-repeat: no-repeat;
+            width: 100%;
+            background-size: cover;
+        }
+
+        .topnav {
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        .topnav a {
+            float: left;
+            /* display: block; */
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 20px;
+        }
+
+        a:hover {
+            background-color: white;
+            color: #333;
+        }
+
+        .img {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+        }
+
+        .heading {
+            text-align: center;
+            color: #f2f2f2;
+        }
+
+        #mytopnav {
+            float: right;
+        }
+
+        /* buttons */
+
+        button {
+            border: none;
+            background-color: #f2f2f2;
+            color: black;
+            padding: 20px;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #333;
+            color: #f2f2f2;
+        }
+
+        /* footer  */
+
+        .footer {
+            width: 100%;
+            height: 80px;
+            background-color: #333;
+            position: fixed;
+            left: 0;
+            bottom: 0;
+        }
+
+        /* footer icons */
+
+        .fa {
+            padding: 22px 22px;
+            font-size: 20px;
+            /* width: 15px; */
+            /* height: 15px; */
+            text-decoration: none;
+            /* margin: 5px 2px; */
+            border-radius: 50%;
+
+        }
+
+        li {
+            list-style: none;
+        }
+
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+
+        .fa-facebook {
+            background: #3B5998;
+            color: white;
+
+
+        }
+
+        .fa-twitter {
+            background: #55ACEE;
+            color: white;
+        }
+
+        .fa-google {
+            background: #dd4b39;
+            color: white;
+        }
+
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+
+        .fa-youtube {
+            background: #bb0000;
+            color: white;
+        }
+
+        .fa-instagram {
+            background: #125688;
+            color: white;
+        }
+
+        .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+
+        .fa-snapchat-ghost {
+            background: #fffc00;
+            color: white;
+            text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+        }
+
+        .fa-skype {
+            background: #00aff0;
+            color: white;
+        }
+
+        .fa-android {
+            background: #a4c639;
+            color: white;
+        }
+
+        .fa-dribbble {
+            background: #ea4c89;
+            color: white;
+        }
+
+        .fa-vimeo {
+            background: #45bbff;
+            color: white;
+        }
+
+        .fa-tumblr {
+            background: #2c4762;
+            color: white;
+        }
+
+        .fa-vine {
+            background: #00b489;
+            color: white;
+        }
+
+        .fa-foursquare {
+            background: #45bbff;
+            color: white;
+        }
+
+        .fa-stumbleupon {
+            background: #eb4924;
+            color: white;
+        }
+
+        .fa-flickr {
+            background: #f40083;
+            color: white;
+        }
+
+        .fa-yahoo {
+            background: #430297;
+            color: white;
+        }
+
+        .fa-soundcloud {
+            background: #ff5500;
+            color: white;
+        }
+
+        .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+
+        .fa-rss {
+            background: #ff6600;
+            color: white;
+        }
+
+        #mytopnav{
+            cursor: pointer;
+        }
+
+        h4{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="topnav">
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Portfolio</a>
+        <a href="">Contact</a>
+        <a id="mytopnav" class="fa fa-bars"></a>
+    </div>
+    <div class="img">
+        <img src="./images/laptop user-modified.png" alt="" width="200px" height="200px">
+    </div>
+
+    <div class="heading">
+        <h2>SONIA NAZ</h2>
+        <h3>I am Web developer</h3>
+
+        <h4><i>
+           <br> I have always been interested in web development. <br> And i have a necessary skills required for the rule.
+           <br> I have a good understanding for HTML, CSS, JavaScript and JQueries.
+        </i></h4>
+        <a href="#contact_me"><button>Contact me</button></a>
+    </div>
+
+    
+</body>
+
+</html>
